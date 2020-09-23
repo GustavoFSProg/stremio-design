@@ -172,3 +172,11 @@ export const SpaceImagem = styled.div`
 export const TextLegend = styled.div`
   color: green;
 `
+
+export const Box = styled.div`
+  right: 0;
+  background: blue;
+  width: 300px;
+  height: 76%;
+  text-align: center;
+`

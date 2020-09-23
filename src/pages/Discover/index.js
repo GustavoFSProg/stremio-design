@@ -127,6 +127,8 @@ export default function Discover() {
           <S.Button>My Library</S.Button>
           <S.Button>Calendar</S.Button>
         </S.Tabs>
+        <S.Box>Caixa pesquisa</S.Box>
+
         <S.Button>Another Buttons</S.Button>
       </S.Navbar>
       <S.Content>
@@ -168,22 +170,25 @@ export default function Discover() {
             <S.TitleContainer>
               <S.Title>AFTER</S.Title>
             </S.TitleContainer>
-            <S.TextTitle> Drama Romance </S.TextTitle>
-            {/* <div align="right">
-              <img
-                src={circulo}
-                alt="Circulo"
-                style={{
-                  display: 'flex',
-                  marginLeft: '80px',
-                  width: '40%',
-                  height: '120%',
-                  borderRadius: '50%',
-                  // alignItems: 'right',
-                  // justifyContent: 'right',
-                }}
-              />
-            </div> */}
+            <S.TextTitle>
+              {' '}
+              Drama Romance{' '}
+              <div align="right">
+                <img
+                  src={circulo}
+                  alt="Circulo"
+                  style={{
+                    display: 'flex',
+                    marginLeft: '80px',
+                    marginTop: '-40px',
+                    width: '40%',
+                    height: '120%',
+                    borderRadius: '50%',
+                  }}
+                />
+              </div>
+            </S.TextTitle>
+
             <S.TextDescription>
               <S.Year> YEAR </S.Year>
               <S.Desc>2005</S.Desc>{' '}
